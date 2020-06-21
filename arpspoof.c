@@ -11,8 +11,6 @@
  * Improved 2020 by Yeauty <YeautyYE@gmail.com>
  */
 
-#include "config.h"
-
 #include <sys/types.h>
 #include <sys/param.h>
 #include <netinet/in.h>

@@ -8,8 +8,6 @@
  * $Id: arp.c,v 1.8 2001/03/15 08:32:58 dugsong Exp $
  */
 
-#include "config.h"
-
 #include <sys/types.h>
 #include <sys/param.h>
 #include <sys/socket.h>
