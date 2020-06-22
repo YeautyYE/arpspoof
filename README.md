@@ -1,5 +1,5 @@
 # arpspoof
-This repo extracts the [arpspoof](https://manpages.debian.org/stretch/dsniff/arpspoof.8.en.html) util from the [dsniff](https://tracker.debian.org/pkg/dsniff) toolkit and lets it run on *macOS*
+This repo extracts the [arpspoof](https://manpages.debian.org/stretch/dsniff/arpspoof.8.en.html) from the [dsniff](https://tracker.debian.org/pkg/dsniff) toolkit and lets it run on *macOS*
 
 ## Installing
 
