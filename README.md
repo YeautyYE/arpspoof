@@ -14,10 +14,10 @@ brew install cmake
 brew install pkg-config
 brew install libnet
 brew install libpcap
-ln -s /usr/local/opt/libpcap/lib/pkgconfig/libpcap.pc libpcap.pc
+ln -s /usr/local/opt/libpcap/lib/pkgconfig/libpcap.pc /usr/local/lib/pkgconfig/libpcap.pc
 git clone https://github.com/YeautyYE/arpspoof.git
 cd arpspoof
-cmake && make && make install
+cmake . && make && make install
 arpspoof
 ```
 
