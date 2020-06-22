@@ -32,9 +32,9 @@ include_directories(
 
 add_executable(arpspoof arpspoof.c arp.c)
 
-#target_link_libraries(arpspoof ${LIBNET_LIBRARIES})
-target_link_libraries(arpspoof libnet.a)
-#target_link_libraries(arpspoof ${LIBPCAP_LIBRARIES})
-target_link_libraries(arpspoof libpcap.a)
+target_link_libraries(arpspoof ${LIBNET_LIBRARIES})
+#target_link_libraries(arpspoof libnet.a)
+target_link_libraries(arpspoof ${LIBPCAP_LIBRARIES})
+#target_link_libraries(arpspoof libpcap.a)
 
 install(TARGETS arpspoof RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})

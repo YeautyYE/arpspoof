@@ -8,6 +8,8 @@
  *
  * $Id: arpspoof.c,v 1.5 2001/03/15 08:32:58 dugsong Exp $
  *
+ * Improved 2011 by Stefan Tomanek <stefa@pico.ruhr.de>
+ *
  * Improved 2020 by Yeauty <YeautyYE@gmail.com>
  */
 
