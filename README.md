@@ -11,6 +11,7 @@ curl -LJO https://github.com/YeautyYE/arpspoof/releases/download/2.4b1%2Bdebian-
 
 ```shell
 brew install cmake
+brew install pkg-config
 brew install libnet
 brew install libpcap
 ln -s /usr/local/opt/libpcap/lib/pkgconfig/libpcap.pc libpcap.pc
