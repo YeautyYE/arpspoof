@@ -4,7 +4,10 @@ This repo extracts the [arpspoof](https://manpages.debian.org/stretch/dsniff/arp
 ## Installing
 
 ```shell
-curl -LJO https://github.com/YeautyYE/arpspoof/releases/download/2.4b1%2Bdebian-29/arpspoof && chmod a+x arpspoof && mv arpspoof /usr/local/bin/
+curl -LJO https://github.com/YeautyYE/arpspoof/releases/download/2.4b1%2Bdebian-29/arpspoof
+chmod a+x arpspoof
+mv arpspoof /usr/local/bin/
+sudo arpspoof
 ```
 
 ## Compiling
@@ -18,7 +21,7 @@ ln -s /usr/local/opt/libpcap/lib/pkgconfig/libpcap.pc /usr/local/lib/pkgconfig/l
 git clone https://github.com/YeautyYE/arpspoof.git
 cd arpspoof
 cmake . && make && make install
-arpspoof
+sudo arpspoof
 ```
 
 ## synopsis
