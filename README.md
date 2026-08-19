@@ -33,7 +33,7 @@ sudo arpspoof
 	Specify the interface to use.
 	
 -c own|host|both
-	Specify which hardware address t use when restoring the arp configuration; while cleaning up, packets can be send with the own address as well as with the address of the host. Sending packets with a fake hw address can disrupt connectivity with certain switch/ap/bridge configurations, however it works more reliably than using the own address, which is the default way arpspoof cleans up afterwards.
+	Specify which hardware address to use when restoring the arp configuration; while cleaning up, packets can be send with the own address as well as with the address of the host. Sending packets with a fake hw address can disrupt connectivity with certain switch/ap/bridge configurations, however it works more reliably than using the own address, which is the default way arpspoof cleans up afterwards.
 	
 -t target
 	Specify a particular host to ARP poison (if not specified, all hosts on the LAN). Repeat to specify multiple hosts.
